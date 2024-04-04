@@ -1,0 +1,2 @@
+# Simplex_Algorithm_Table
+ 一个从xlsx表格生成单纯形法表格LaTex源码的小工具

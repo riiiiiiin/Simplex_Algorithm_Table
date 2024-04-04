@@ -1,0 +1,41 @@
+
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, bm, color, framed, graphicx, hyperref, mathrsfs}
+\usepackage{tabularray}
+
+\begin{document}
+
+\begin{tblr}{%
+    cells  = {c, m},
+    row{1-Z} = {mode = math},
+    column{1-Z} = {mode = math},
+    hline{1} = {0.15em},
+    hline{Z} = {0.15em},
+    hline{2} = {1-8}{0.08em},
+    hline{3} = {1-Z}{0.08em},
+hline{7} = {1-Z}{0.08em},
+hline{11} = {1-Z}{0.08em},
+	hline{6} = {1-Z}{0.08em},
+hline{10} = {1-Z}{0.08em},
+hline{14} = {1-Z}{0.08em},
+	vline{2,3} = {2-Z}{0.08em},
+    vline{4,9} = {0.08em},
+    }
+    	 &	 &	 &	-12&	-15&	 0&	 0&	 0&	\\
+	c_B&	x_B&	b&	x_1&	x_2&	x_3&	x_4&	x_5&	\theta\\
+	 0&	x_3&	120&	0.25&	0.5&	1&	0&	0&	240\\
+	 0&	x_4&	150&	0.5&	0.5&	0&	1&	0&	300\\
+	 0&	x_5&	50&	0.25&	 0&	 0&	 0&	1&	-\\
+	&	-z&	 0&	-12&	-15&	 0&	 0&	 0&	&\\
+	-15&	x_2&	240&	0.5&	1&	2&	 0&	 0&	480\\
+	 0&	x_4&	30&	0.25&	 0&	-1&	1&	 0&	120\\
+	 0&	x_5&	50&	0.25&	 0&	 0&	 0&	1&	200\\
+	&	-z&	3600&	-4.5&	 0&	 0&	 0&	 0&	&\\
+	-15&	x_2&	180&	 0&	1&	4&	-2&	 0&	 \\
+	-12&	x_1&	120&	1&	 0&	-4&	4&	 0&	 \\
+	 0&	x_5&	20&	 0&	 0&	1&	-1&	1&	 \\
+	&	-z&	4140&	 0&	 0&	12&	18&	 0&	&\\
+
+    \end{tblr}
+
+\end{document}
